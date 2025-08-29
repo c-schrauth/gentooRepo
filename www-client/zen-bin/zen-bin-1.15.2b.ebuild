@@ -65,7 +65,7 @@ src_install() {
 	fperms 0750 "${destdir}"/pingsender
 	# Disable auto-updates
 	insinto ${destdir}/distribution
-	doins "${FILESDIR}/policies.json"
+	#doins "${FILESDIR}/policies.json"
 }
 
 pkg_postinst() {
